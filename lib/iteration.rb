@@ -16,6 +16,7 @@ def find_greater_pair(src)
   i = 0
   while i < src.size do
     sorted_src[i] = src[i][0] < src[i][1] ? src[i] : [src[i][1], src[i][0]]
+    i += 1
   end
   
   return sorted_src
