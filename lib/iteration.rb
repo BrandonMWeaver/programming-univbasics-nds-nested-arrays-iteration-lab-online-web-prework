@@ -30,6 +30,7 @@ def total_even_pairs(src)
     if src[i][0] % 2 == 0 && src[i][1] % 2 == 0
       total += src[i][0] + src[i][1]
     i += 1
+    end
   end
   
   return total
