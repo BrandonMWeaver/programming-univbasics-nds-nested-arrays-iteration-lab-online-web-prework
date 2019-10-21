@@ -12,6 +12,7 @@ def join_ingredients(src)
   i = 0
   while i < src.size do
     pizza << "I love #{src[i][0]} and #{src[i][1]} on my pizza"
+    i += 1
   end
   
   return pizza
